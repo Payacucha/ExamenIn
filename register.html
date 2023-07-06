@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="#">
+        <img src="img/logo.jpg" alt="Logo">
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMenu" aria-controls="navbarMenu" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarMenu">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+              <a href="index.html"class="nav-link" href="#">Inicio</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+<body>
+<div class="login-page" id="register">
+    <div class="form">
+    <h1>Registro</h1>
+    <form action="login.html" id="register-form">
+      <input type="text" placeholder="Nombre completo" required>
+      <input type="email" placeholder="Correo electrónico" required>
+      <input type="password" placeholder="Contraseña" required>
+      <button type="submit">Registrarse</button>
+    </form>
+    <p>¿Ya tienes una cuenta? <a href="login.html">Inicia sesión</a></p>
+</div>
+  <div id="myModal" class="modal">
+    <div class="modal-content">
+      <span class="close"> &times;</span>
+      <p>Usuario registrado exitosamente Puede ir al inicio!</p>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
